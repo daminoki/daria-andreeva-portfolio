@@ -12,7 +12,7 @@ const AboutMe = () => {
             <Image src='/portrait.jpeg' alt='Daria Andreeva' width={350} height={500}/>
           </div>
           <div>
-            <p className={styles.about__text}>Hello, my name is Andreeva Daria.</p>
+            <p className={styles.about__text}>Hello, my name is <span>Andreeva Daria.</span></p>
             <p className={styles.about__text}>As a passionate Frontend Developer, I am driven to provide engaging user experiences and devising effective strategies to elevate business performance. Strong in an assortment of technologies, including <span>HTML, CSS, JavaScript, React, NextJS.</span> Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</p>
           </div>
         </div>

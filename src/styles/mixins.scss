@@ -30,11 +30,18 @@
     font-weight: 500;
 }
 
+@mixin h3 {
+    font-size: 32px;
+    line-height: 120%;
+    font-style: normal;
+    font-weight: 500;
+}
+
 @mixin txt20 {
     font-size: 20px;
     line-height: 120%;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 @mixin txt16 {
