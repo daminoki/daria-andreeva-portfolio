@@ -9,6 +9,9 @@ const AboutMe = () => {
         <h1 className={styles.about__title}>About Me</h1>
         <div className={styles.about__container}>
           <div className={styles.about__img}>
+            <div className={styles.about__back}></div>
+            <div className={styles.about__main}></div>
+            <div className={styles.about__front}></div>
             <Image src='/portrait.jpeg' alt='Daria Andreeva' width={350} height={500}/>
           </div>
           <div>

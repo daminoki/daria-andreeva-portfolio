@@ -17,6 +17,7 @@
     &__img {
         min-width: 250px;
         height: 250px;
+        position: relative;
 
         img {
             width: 100%;
@@ -36,5 +37,36 @@
         span {
             @include gradient_text;
         }
+    }
+
+    &__back {
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        border: 2px solid rgba(122,67,255,1);
+        border-radius: 50%;
+        width: 260px;
+        height: 260px;
+    }
+
+    &__main {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background: radial-gradient(circle, rgba(122,67,255,.5) 0%, rgba(252,70,107,.5) 100%);
+        border-radius: 50%;
+        width: 260px;
+        height: 260px;
+    }
+
+    &__front {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        border: 2px solid var(--typo-white);
+        border-radius: 50%;
+        width: 260px;
+        height: 260px;
+        z-index: 3;
     }
 }
