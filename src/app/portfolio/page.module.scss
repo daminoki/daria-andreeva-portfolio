@@ -1,7 +1,3 @@
 .portfolio {
-    color: var(--typo-white);
-
-    @include tablet {
-        color: black;
-    }
+    color: var(--typo-black);
 }
