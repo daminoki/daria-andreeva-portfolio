@@ -7,3 +7,6 @@
 * NextJS
 * Strapi
 * MaterialUI
+
+## Live demo here
+https://cheery-sundae-aa15d8.netlify.app/
