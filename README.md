@@ -9,4 +9,4 @@
 * MaterialUI
 
 ## Live demo here
-https://cheery-sundae-aa15d8.netlify.app/
+https://daria-andreeva-portfolio.vercel.app/
