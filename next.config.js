@@ -4,7 +4,7 @@ const nextConfig = {
     additionalData: '@import "src/styles/mixins.scss";',
   },
   images: {
-    domains: ['cheery-sundae-aa15d8.netlify.app'],
+    domains: ['cheery-sundae-aa15d8.netlify.app', 'cdn.sanity.io'],
   },
 };
 

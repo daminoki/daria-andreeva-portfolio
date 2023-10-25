@@ -3,6 +3,8 @@
     position: sticky;
     top: 0;
     left: 0;
+    background-color: var(--typo-white);
+    z-index: 100;
 
     &__nav {
         padding: 25px 0;
