@@ -1,3 +1,9 @@
 .portfolio {
     color: var(--typo-black);
+
+    &__title {
+        @include h2;
+        @include gradient_text;
+        margin: 0 auto 30px;
+    }
 }
