@@ -23,7 +23,7 @@ function urlFor(source) {
 }
 export default async function Portfolio() {
   const projects = await getData();
-
+  console.log(projects.length);
   return <div className={styles.portfolio}>
     <Container>
       <h1 className={styles.portfolio__title}>Portfolio</h1>
