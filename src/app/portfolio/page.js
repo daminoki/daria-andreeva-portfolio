@@ -9,10 +9,11 @@ const client = createClient({
   projectId: 'r24w0ip6',
   dataset: 'production',
   apiVersion: '2022-03-25',
-  useCdn: false
+  useCdn: false,
 });
+
 export async function getData() {
-  const projects = await client.fetch('*[_type == "project"]');
+  const projects = await client.fetch('*[_type == "project"]', {cache: 'no-cache', next: {revalidate: 1}});
 
   return projects;
 }
@@ -21,6 +22,7 @@ const builder = imageUrlBuilder(client);
 function urlFor(source) {
   return builder.image(source);
 }
+
 export default async function Portfolio() {
   const projects = await getData();
   console.log(projects.length);
